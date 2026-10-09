@@ -8,7 +8,7 @@ int main() {
     return 0;
 }
 
-//printing 1-40 numbers using for loop
+//printing 1-40 numbers using while loop
 #include <iostream>
 using namespace std;
 int main() {
@@ -18,5 +18,18 @@ int main() {
         i++;
         
     }
+    return 0;
+}
+
+//printing 1-40 numbers using do-while loop
+#include <iostream>
+using namespace std;
+int main() {
+    int i=1;
+    do{
+        cout<<i<<endl;
+        i++;
+    }while(i<=40);    
+    
     return 0;
 }
