@@ -16,3 +16,17 @@ int sum(int a, int b);
       int c=a+b;
       return c;
        }
+
+
+//printing a message using function prototyping
+
+#include <iostream>
+using namespace std;
+void g();
+int main(){
+    g();
+    return 0;
+}
+void g(){
+    cout<<"hello, good morning"<<endl;
+}
