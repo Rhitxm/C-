@@ -9,10 +9,10 @@ int sum(int a, int b);
        cin>>num1;
        cout<<"enter second number: "<<endl;
        cin>>num2;
-       cout<<"the sum is: "<<sum(num1, num2)<<endl;
+       cout<<"the sum is: "<<sum(num1, num2)<<endl; //actual parameters
            return 0;
 }
-       int sum(int a, int b){
+       int sum(int a, int b){ //formal parametres
       int c=a+b;
       return c;
        }
