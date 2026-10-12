@@ -1,6 +1,6 @@
 //not to be used in recursion
 //not to be used during static variables
-//not to be used during swaitch statements and loops
+//not to be used during switch statements and loops
 
 #include <iostream>
 using namespace std;
