@@ -1,5 +1,9 @@
 //used to preserve count
 //storing employee information by preserving the count
+//static variables are used to link class
+//also known as class variable
+//visibility : Inside class
+//life: till the program terminates
 
 #include <iostream>
 using namespace std;
