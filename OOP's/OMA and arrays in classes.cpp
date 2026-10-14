@@ -3,6 +3,7 @@
 #include <iostream>
 using namespace std;
 
+//classes are by default private information and cannot be edited by external user
 class Shop{
     int itemId[100];
     int itemPrice[100];
