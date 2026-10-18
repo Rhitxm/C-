@@ -2,7 +2,7 @@
 
 #include <iostream>
 using namespace std;
-class Complex;
+class Complex; //this is a froward declaration, it is used to tell the compiler to trust us and move forward remarkinbg that there is the mentioned class present ahead
 class Calculator{
     public:
     int add(int a, int b){
