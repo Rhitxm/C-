@@ -1,5 +1,6 @@
 //constructors are basically construction fo object by setting it's value
-
+//constructor is a special member function with same name as that of the class, it is used to initialise the objects of it's class.
+// it is automatically invoked(called) whenever an object is created
 #include <iostream>
 using namespace std;
 class Complex{
