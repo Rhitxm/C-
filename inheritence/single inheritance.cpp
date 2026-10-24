@@ -3,7 +3,7 @@
 #include <iostream>
 using namespace std;
 class Base{
-    int data1;
+    int data1; //private by default and is not inheritable
     public:
     int data2;
     void setData();
@@ -20,7 +20,7 @@ int Base::getData1(){
 int Base::getData2(){
     return data2;
 }
-class Derived:public Base{
+class Derived:public Base{ //class is being derived physically
     int data3;
     public:
     void process();
