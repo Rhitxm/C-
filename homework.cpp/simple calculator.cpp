@@ -11,7 +11,7 @@ class SimpleCalculator{
         cin>>b;
     }
     void calculate(){
-        cout<<"Addition of the two numbers are: "<<a+b<<endl<<endl;
+        cout<<"Addition of the two numbers are: "<<a+b<<endl<<endl; //prints addition of two numbers
         cout<<"Subtraction of the two numbers are: "<<a-b<<endl<<endl;
         cout<<"Multiplication of the two numbers are: "<<a*b<<endl<<endl;
         if(b!=0){
