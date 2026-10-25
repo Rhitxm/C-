@@ -14,6 +14,7 @@ class SimpleCalculator{
         cout<<"Addition of the two numbers are: "<<a+b<<endl<<endl; //prints addition of two numbers
         cout<<"Subtraction of the two numbers are: "<<a-b<<endl<<endl; //prints subtracion of two numbers
         cout<<"Multiplication of the two numbers are: "<<a*b<<endl<<endl; //prints product of two numbers
+        //cases arise in division where we cannot divide number if the denominator is zero
         if(b!=0){
             cout<<"Division of the two numbers are: "<<a/b<<endl<<endl;
         }
