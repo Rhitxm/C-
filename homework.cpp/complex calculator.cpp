@@ -9,8 +9,8 @@ void getNumber(){
     cin>>a;
 }    
 void calculate(){
-cout<<"Sqaure of the number is: "<<pow(a, 2)<<endl;
-cout<<"Square root of the number is: "<<sqrt(a)<<endl;
+cout<<"Sqaure of the number is: "<<pow(a, 2)<<endl; //you can get nth powered results
+cout<<"Square root of the number is: "<<sqrt(a)<<endl; 
 cout<<"Logarithm of the number is: "<<log(a)<<endl;
 cout<<"Modulus of the given number is: "<<fabs(a)<<endl;
 }
