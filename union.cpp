@@ -40,3 +40,18 @@ printf("Size of structure = %d bytes\n", (int)sizeof(struct sdata));
 printf("Size of union = %d bytes\n", (int)sizeof(union udata));
 return 0;
 }
+
+
+
+//memory addresses of stuructures and union
+#include <stdio.h>
+struct s { int a; float b; };
+union u { int a; float b; };
+int main()
+{
+struct s s1;
+union u u1;
+printf("Structure: &a = %p, &b = %p\n", (void*)&s1.a, (void*)&s1.b);
+printf("Union : &a = %p, &b = %p\n", (void*)&u1.a, (void*)&u1.b);
+return 0;
+}
